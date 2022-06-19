@@ -1,0 +1,14 @@
+@for $i from 1 through 12 {
+  .col-#{$i} {
+    width: (1 / (12 / $i)) * 100%;
+    position: relative;
+    box-sizing: border-box;
+    padding: 0 15px;
+  }
+}
+
+.col {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 15px;
+}

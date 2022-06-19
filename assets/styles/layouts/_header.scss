@@ -1,0 +1,30 @@
+.hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+
+    .header-bg {
+        margin-top: -8vh;
+    }
+
+    .btn-hero {
+        position: absolute;
+        width: 500px;
+        height: 650px;
+        bottom: 10%;
+        transition: 1s;
+        animation: floating 4s infinite;
+        border: none;
+    
+        background-position: center bottom;
+        background-color: transparent;
+        background-repeat: no-repeat !important;
+        background-image: url("../imgs/hd-bg3-btn.png");
+        background-size: 100%;
+        object-fit: contain;
+    }
+    
+}
+

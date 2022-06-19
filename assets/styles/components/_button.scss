@@ -1,0 +1,35 @@
+.button-block
+{
+    padding: 1rem 0;
+
+    .btn {
+        border: none;
+        text-decoration: none;
+        padding: 25px 30px;
+        cursor: pointer;
+        display: inline-block;
+
+
+        font-weight: 600;
+        font-size: 0.9rem;
+
+        &__primary {
+            background-color: $primary-btn-bg-color;
+            color: $text-dark;
+        }
+
+        &--rounded {
+            border-radius:40px;
+        }
+    }
+
+    &--center {
+        text-align: center;
+    }
+}
+
+// .section-content__body {
+//     .btn {
+//         margin-top: 1rem;
+//     }
+// }
